@@ -17,7 +17,7 @@ a:hover{
 
 .grid-container{
     display: grid;
-    grid-template-areas: "main info";
+    grid-template-areas: "main info"; 
 }
 
 .main{
