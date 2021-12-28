@@ -18,6 +18,10 @@ myBlogArea.hide();
 function showHomeArea(){
     portfolioArea.hide();
     skillsArea.hide();
+    contactmeArea.hide();
+    myCVArea.hide();
+    myEducationArea.hide();
+    myBlogArea.hide();
     infoStart.fadeIn(1500)
 }
 
@@ -25,6 +29,10 @@ function showHomeArea(){
 function showPortfolioArea() {
     infoStart.hide();
     skillsArea.hide();
+    contactmeArea.hide();
+    myCVArea.hide();
+    myEducationArea.hide();
+    myBlogArea.hide();
     portfolioArea.fadeIn(1500);
 }
 
@@ -73,11 +81,96 @@ skillsAreaThree.mouseover(() =>{
     skillsThreeParagraph.show(); 
 })
 
+//Skill SQL
+let skillsAreaFour = $('#skills-cardFour');
+let skillsFourParagraph = $("#skills-cardFour-p");
+let skillsFourStars = $("#skills-cardFour-p2")
+skillsFourStars.hide();
+
+skillsAreaFour.mouseover(() =>{
+    skillsFourParagraph.hide();
+    skillsFourStars.show();
+}).mouseleave(() =>{
+    skillsFourStars.hide();
+    skillsFourParagraph.show(); 
+})
+
+//Skill HTML
+let skillsAreaFive = $('#skills-cardFive');
+let skillsFiveParagraph = $("#skills-cardFive-p");
+let skillsFiveStars = $("#skills-cardFive-p2")
+skillsFiveStars.hide();
+
+skillsAreaFive.mouseover(() =>{
+    skillsFiveParagraph.hide();
+    skillsFiveStars.show();
+}).mouseleave(() =>{
+    skillsFiveStars.hide();
+    skillsFiveParagraph.show(); 
+})
+
+//Skill CSS
+let skillsAreaSix = $('#skills-cardSix');
+let skillsSixParagraph = $("#skills-cardSix-p");
+let skillsSixStars = $("#skills-cardSix-p2")
+skillsSixStars.hide();
+
+skillsAreaSix.mouseover(() =>{
+    skillsSixParagraph.hide();
+    skillsSixStars.show();
+}).mouseleave(() =>{
+    skillsSixStars.hide();
+    skillsSixParagraph.show(); 
+})
+
 
 function showSkillsArea() {
     infoStart.hide();
     portfolioArea.hide();
+    contactmeArea.hide();
+    myCVArea.hide();
+    myEducationArea.hide();
+    myBlogArea.hide();
     skillsArea.fadeIn(1500);
    
 }
 
+function showContactArea() {
+    infoStart.hide();
+    portfolioArea.hide();
+    skillsArea.hide();
+    myCVArea.hide();
+    myEducationArea.hide();
+    myBlogArea.hide();
+    contactmeArea.fadeIn(1500)
+}
+
+function showCVArea() {
+    infoStart.hide();
+    portfolioArea.hide();
+    skillsArea.hide();
+    contactmeArea.hide();
+    myEducationArea.hide();
+    myBlogArea.hide();
+    myCVArea.fadeIn(1500);
+}
+
+function showEducationArea(){
+    infoStart.hide();
+    portfolioArea.hide();
+    skillsArea.hide();
+    contactmeArea.hide();
+    myCVArea.hide();
+    myBlogArea.hide();
+    myEducationArea.fadeIn(1500);
+}
+
+function showBlogArea(){
+    infoStart.hide();
+    portfolioArea.hide();
+    skillsArea.hide();
+    contactmeArea.hide();
+    myCVArea.hide();
+    myEducationArea.hide();
+    myBlogArea.fadeIn(1500);
+}

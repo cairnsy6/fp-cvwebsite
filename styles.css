@@ -21,7 +21,7 @@ a:hover{
 .welcome-grid-container{
     display: grid;
     grid-template-areas: "main info";
-    
+    grid-template-columns: 40% 60%;
 
 }
 
@@ -173,6 +173,10 @@ a:hover{
 
 #portfolio-cardFive{
     grid-area:cardFive;
+    background-image: url("https://images.unsplash.com/photo-1517960413843-0aee8e2b3285?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2099&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
 #portfolio-cardSix{
@@ -208,7 +212,7 @@ a:hover{
     text-align: center;
     font-family: 'Raleway', sans-serif;
     color:white;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 1px 4px 4px black;
     padding:1rem;
     margin-bottom: 1rem;
     background-color: blue;
@@ -217,7 +221,7 @@ a:hover{
 
 #skills-cardOne{
     grid-area:cardOne;
-    background-image: url("https://miro.medium.com/max/1400/1*UvWOnSlWP7AbbOtSVUeHMg.png");
+    background-image: url("https://miro.medium.com/max/512/1*YWazhGyGmNs6K3HZE7lS7Q.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -245,7 +249,7 @@ a:hover{
 
 #skills-cardFour{
     grid-area:cardFour;
-    background-image: url("https://cdn.hackersandslackers.com/2019/02/SQLpt1-3.jpg");
+    background-image: url("https://miro.medium.com/max/15000/1*TFiU8cCFFpGOM2Id6Raa3A.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -268,6 +272,7 @@ a:hover{
     background-repeat: no-repeat;
     background-size:cover;
     opacity: 90%;
+    
 }
 
 
@@ -288,6 +293,59 @@ a:hover{
 }
 
 
+
+#contact-email{
+    grid-area:contact-email;
+}
+
+#contact-phone{
+    grid-area:contact-phone;
+}
+
+#contact-title{
+    grid-area:contact-title;
+    margin-bottom: 3rem;
+}
+
+.contactme-grid {
+    display: grid;
+    grid-template-areas:"contact-title"
+                        "contact-email"
+                         "contact-phone";
+    grid-template-columns: 100%;
+}
+
+
+#contactmeArea h1{
+            color:white;
+            margin-top: 8rem;
+            text-align: left;
+            font-family: 'Raleway', sans-serif;
+            text-shadow: 2px 2px 2px black;
+            
+        }
+#contactmeArea h2{
+        color:white;
+        text-align: left;
+        font-family: 'Raleway', sans-serif;
+        text-shadow: 1px 1px 4px black;
+}
+
+#myCVArea img{
+    width: 80%;
+}
+
+.scroll-area{
+    margin-top: 3rem;
+    height: 700px; 
+    overflow-y: scroll;
+}
+
+.carousel-item{
+    margin-top:4rem;
+    width: 60%;
+    margin-left: 7rem;
+}
 
 /* Skills Grid CSS */
 
@@ -350,6 +408,7 @@ a:hover{
         margin-bottom: 1rem;
         font-size: 12px;
     }
+
 
 }
 
