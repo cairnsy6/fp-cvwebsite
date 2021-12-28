@@ -20,9 +20,8 @@ a:hover{
 /* Welcome grid CSS */
 .welcome-grid-container{
     display: grid;
-    grid-template-areas: "main info";
+    grid-template-areas: "main info"; 
     grid-template-columns: 40% 60%;
-
 }
 
 .main{
