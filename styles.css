@@ -152,10 +152,18 @@ a:hover{
 
 #portfolio-cardOne{
     grid-area:cardOne;
+    background-image: url("https://images.unsplash.com/photo-1611605698335-8b1569810432?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
 #portfolio-cardTwo{
     grid-area:cardTwo;
+    background-image: url("https://images.unsplash.com/photo-1517960413843-0aee8e2b3285?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2099&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
 #portfolio-cardThree{
@@ -164,18 +172,10 @@ a:hover{
 
 #portfolio-cardFour{
     grid-area:cardFour;
-    background-image: url("https://images.unsplash.com/photo-1611605698335-8b1569810432?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
 }
 
 #portfolio-cardFive{
     grid-area:cardFive;
-    background-image: url("https://images.unsplash.com/photo-1517960413843-0aee8e2b3285?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2099&q=80");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
 }
 
 #portfolio-cardSix{
