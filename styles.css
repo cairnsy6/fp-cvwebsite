@@ -336,6 +336,7 @@ a:hover{
 
 #myCVArea img{
     width: 80%;
+   
 }
 
 .scroll-area{
@@ -348,6 +349,7 @@ a:hover{
     margin-top:4rem;
     width: 60%;
     margin-left: 7rem;
+    margin-bottom:2rem;
 }
 
 /* Skills Grid CSS */
