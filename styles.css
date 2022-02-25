@@ -168,6 +168,10 @@ a:hover{
 
 #portfolio-cardThree{
     grid-area:cardThree;
+    background-image: url("https://images.unsplash.com/photo-1617791160536-598cf32026fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
 #portfolio-cardFour{
@@ -354,7 +358,7 @@ a:hover{
 
 /* Skills Grid CSS */
 
-@media only screen and (min-width:0px) and (max-width:400px){
+@media only screen and (min-width:0px) and (max-width:426px){
 
     .main{
         background-color: red;
@@ -363,10 +367,15 @@ a:hover{
         height:100%;
     }
 
+    .main li{
+        margin-left: -3rem;
+        font-size: 18px;
+    }
+
     .main img{
         margin-top: 2rem;
-        margin-left: 7rem;
-        width:10rem;
+        margin-left: 1rem;
+        width:6.5rem;
         border: 3px solid white;
         border-radius:10rem;
     }
@@ -375,9 +384,13 @@ a:hover{
         font-weight:bolder;
     }
     
+    #get-in-touch{
+        margin-left:15px;
+    }
     .main h3{
         color:white;
         margin-top: 1rem;
+
         text-align: left;
         font-size: 20px;
         font-family: 'Raleway', sans-serif;
@@ -389,11 +402,43 @@ a:hover{
                              "info";
     }
 
+    .main .icon-grid{
+        margin-left: -1rem;
+        color:white;
+        font-size: 25px;
+    }
+    .skillsTitle{
+
+        color:white;
+        margin-top: 2rem;
+        text-align: left;
+        font-family: 'Raleway', sans-serif;
+        text-shadow: 2px 2px 2px black;
+        margin-left: 5rem;
+        margin-bottom: 2rem;
+    }
+
+    .skills-card{
+        margin-left: 1rem;
+        width:12rem;
+        height:16rem;
+        border: 4px white solid;
+        border-radius: 4rem;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        color:white;
+        text-shadow: 1px 4px 4px black;
+        padding:1rem;
+        margin-bottom: 1rem;
+        background-color: blue;
+        opacity: 80%;
+    }
+
     #info h1{
         color:white;
-        margin-top: 1rem;
+        margin-top: 3rem;
         text-align: left;
-        margin-left: 1rem;
+        margin-left: 2rem;
         font-family: 'Raleway', sans-serif;
         text-shadow: 2px 2px 2px black;
     }
@@ -402,22 +447,110 @@ a:hover{
         font-size: 20px;
         color:white;
         text-align: left;
-        margin-left: 1rem;
+        margin-left: 2rem;
+        margin-right: 1rem;
         font-family: 'Raleway', sans-serif;
         text-shadow: 1px 1px 1px black;
     }
     
     #info button{
-        margin-top:0rem;
-        margin-left: 5px;
+        margin-top:1rem;
+        margin-left: 2rem;
         margin-bottom: 1rem;
         font-size: 12px;
     }
 
+    .skills-grid{
+        display:grid;
+        grid-template-areas: "cardOne"
+                            " cardTwo"
+                              "cardThree"
+                              "cardFour"
+                              "cardFive"
+                              "cardSix";
+        grid-template-columns: 50%;
+    } 
+
+    .portfolioTitle{
+
+        color:white;
+        margin-top: 2rem;
+        text-align: left;
+        font-family: 'Raleway', sans-serif;
+        text-shadow: 2px 2px 2px black;
+        margin-left: 3rem;
+        margin-bottom: 2rem;
+    }
+    
+    .portfolio-card{
+        width:14rem;
+        height:15rem;
+        border: 4px white solid;
+        border-radius: 4rem;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        color:white;
+        text-shadow: 2px 2px 2px black;
+        padding:1rem;
+        margin-bottom: 1rem;
+        background-color: red;
+        opacity: 85%;
+    }
+
+    .portfolio-grid{
+        display:grid;
+        grid-template-areas: "cardOne"
+        " cardTwo"
+          "cardThree"
+          "cardFour"
+          "cardFive"
+          "cardSix";
+        grid-template-columns: 100%;
+    
+    
+    } 
+
+    #contactmeArea h1{
+        color:white;
+        margin-top: 8rem;
+        text-align: left;
+        font-family: 'Raleway', sans-serif;
+        text-shadow: 2px 2px 2px black;
+        
+    }
+#contactmeArea h2{
+    color:white;
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 1px 1px 4px black;
+}
+
+#myCVArea img{
+margin-left:1rem;
+margin-top: 6rem;
+width: 90%;
+height: 50%;
 
 }
 
-@media only screen and (min-width: 401px) and (max-width:700px){
+.scroll-area{
+margin-top: 3rem;
+height: 700px; 
+overflow-y: scroll;
+}
+
+.carousel-item{
+margin-top:4rem;
+width: 80%;
+margin-left: 2rem;
+margin-bottom:2rem;
+}
+
+
+}
+
+@media only screen and (min-width: 427px) and (max-width:700px){
     .main{
         background-color: red;
         opacity: 80%;
@@ -494,6 +627,7 @@ a:hover{
                               "cardFive cardSix";
         grid-template-columns: 50% 50%;
     } 
+
     
     
 }
